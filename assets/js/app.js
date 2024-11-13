@@ -31,6 +31,7 @@ inputBox.oninput = (event) => {
           searchSuggestion.classList.remove('active-search-suggestion');
           loadingText.innerHTML = ""
           movieContainer.innerHTML = ""
+          searchSuggestion.innerHTML = ""
      }
 }
 
