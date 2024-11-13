@@ -1,0 +1,25 @@
+
+Search Each Movie
+http://www.omdbapi.com/?t=Batman: Gotham Knight&apikey=1fb1f733
+
+Search Multiple Related Movies
+https://omdbapi.com/?s=Spider-man&page=1&apikey=1fb1f733
+
+FF204E
+
+<h3 id="loadingText">Finding Movie "Spider-man"</h3>
+
+ <div class="movie-card">
+     <div class="movie-poster">
+                    
+     </div>
+     <div class="movie-content">
+                    
+     </div>
+</div>
+
+
+loadingText.innerHTML = '<h3 id="loadingText"></h3>'
+          setTimeout(() => {
+               loadingText.innerHTML = '<h3 id="loadingText">Server not responding? Please check your internet connection and try again</h3>'
+          }, 3000);
