@@ -55,6 +55,8 @@ const getMovie = async (userMovie) => {
      try{
           const res  = await fetch(`http://www.omdbapi.com/?t=${userMovie}&apikey=1fb1f733`)
           const data = await res.json()
+          console.log(data);
+          
           showMovie(data,userMovie);
      }
      catch{
