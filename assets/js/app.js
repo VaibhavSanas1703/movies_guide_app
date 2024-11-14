@@ -8,7 +8,7 @@ const movieContainer = document.querySelector('.movie-container');
 
 inputBox.oninput = (event) => {
      if(inputBox.value.length){
-          fetch(`https://omdbapi.com/?s=${event.target.value}&page=1&apikey=1fb1f733`)
+          fetch(`http://omdbapi.com/?s=${event.target.value}&page=1&apikey=1fb1f733`)
           .then((res) => {
                return res.json()
           })
