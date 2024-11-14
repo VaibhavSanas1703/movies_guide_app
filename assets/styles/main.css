@@ -180,14 +180,13 @@ header{
      margin: 5px 0;
      font-size: 14.8px;
      border-radius: 5px;
-     transition: color .5s , scale .5s;
+     transition: color .5s;
      letter-spacing: 0.2px;
      font-weight: 400;
 }
 
 .search-suggestion-container ul li:hover{
      color: var(--primary);
-     scale: 0.99;
 }
 
 
